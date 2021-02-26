@@ -37,7 +37,7 @@ const App = () => {
             window.open(article.url, '_blank');
             alanBtn().playText('Opening...');
           } else {
-            alanBtn().playText('Please try that again...');
+             alanBtn().playText('Please try that again...');
           }
         }
       },
